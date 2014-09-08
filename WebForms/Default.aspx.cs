@@ -11,7 +11,12 @@ namespace WebForms
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            //Create test list of strings
+            var l = new List<string>();
+            for (var i = 1; i <= 10; i++)
+            {
+                l.Add("Item " + i);
+            }
         }
     }
 }
