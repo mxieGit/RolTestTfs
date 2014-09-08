@@ -12,9 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{B1E7A5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{A8BCF646-F426-47FB-925E-8D8F67FE5771}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleCS", "ConsoleCS\ConsoleCS.csproj", "{52C1B46F-2BEF-470A-8BFD-D38BEA536E09}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
+		SccNumberOfProjects = 4
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = http://hv-tfs2k8:8080/
 		SccLocalPath0 = .
@@ -24,6 +26,9 @@ Global
 		SccProjectUniqueName2 = WebForms\\WebForms.csproj
 		SccProjectName2 = WebForms
 		SccLocalPath2 = WebForms
+		SccProjectUniqueName3 = ConsoleCS\\ConsoleCS.csproj
+		SccProjectName3 = ConsoleCS
+		SccLocalPath3 = ConsoleCS
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +43,10 @@ Global
 		{A8BCF646-F426-47FB-925E-8D8F67FE5771}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8BCF646-F426-47FB-925E-8D8F67FE5771}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8BCF646-F426-47FB-925E-8D8F67FE5771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52C1B46F-2BEF-470A-8BFD-D38BEA536E09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52C1B46F-2BEF-470A-8BFD-D38BEA536E09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52C1B46F-2BEF-470A-8BFD-D38BEA536E09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52C1B46F-2BEF-470A-8BFD-D38BEA536E09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
